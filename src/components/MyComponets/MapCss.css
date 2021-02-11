@@ -1,0 +1,14 @@
+.gm-control-active .gm-fullscreen-control {
+    visibility: hidden;
+}
+
+.gmnoprint {
+    visibility: hidden;
+}
+.gm-control-active {
+    visibility: hidden;
+}
+
+.gm-fullscreen-control{
+    visibility: hidden;
+}
