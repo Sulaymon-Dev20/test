@@ -11,8 +11,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import AdminLayout from "layouts/Admin.js";
 import {Provider} from "react-redux";
 import RouteByRoot from "./views/RouteValueStations";
-import GetBus from "./views/GetBusByTime";
-import 'css/style.css'
+import GetBus from "./views/GetBusByTime2";
+// import 'css/style.css'
 
 import store from './store'
 

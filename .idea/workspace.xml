@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb121421-6ca5-41c9-b7c0-f2340dc2f1d9" name="Default Changelist" comment=":)">
-      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/GetBusByTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/turn-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/styleStation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/GetBusByTime2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/apis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apis.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/apiMobileV2/ApiMobileV2Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/apiMobileV2/ApiMobileV2Action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/apiMobileV2/ApiMobileV2Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/apiMobileV2/ApiMobileV2Reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/RouteProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RouteProps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/RouteValueStations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RouteValueStations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -70,8 +72,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/views" />
-      <recent name="$PROJECT_DIR$/src/components/MyComponets" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/src/components/MyComponets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +101,7 @@
       <workItem from="1613389595673" duration="363000" />
       <workItem from="1614148629841" duration="125000" />
       <workItem from="1614148768534" duration="3659000" />
-      <workItem from="1614236766525" duration="10314000" />
+      <workItem from="1614236766525" duration="13600000" />
     </task>
     <task id="LOCAL-00001" summary=":)">
       <created>1612714395144</created>
@@ -142,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613039115251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":)">
+      <created>1614250916727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614250916728</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
