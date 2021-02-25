@@ -1,5 +1,6 @@
 /*---------------------API--------------------*/
-export const api = 'http://localhost:8010/api/mobile/v2/';
+export const api = 'http://localhost:8012/api/mobile/v2/';
+// export const api = 'http://4e5153b1c267.ngrok.io/api/mobile/v2/';
 /*---------------------API--------------------*/
 
 /*---------------------API-ROUTE-PROPS--------------------*/
@@ -31,7 +32,7 @@ export const vectorData = 'vectorData';
 /*---------------------API-VECTOR-DATA--------------------*/
 
 /*---------------------API-GET-BY-ROOT--------------------*/
-export const getByRoot = 'getByRoot';
+export const getByRoot = 'getByRoot/';
 /*---------------------API-GET-BY-ROOT--------------------*/
 
 /*---------------------API-GET-BY-ROOT--------------------*/
@@ -40,6 +41,10 @@ export const getTimeBus = 'getTimeBus/';
 
 /*---------------------API-GET-BY-ROOT--------------------*/
 export const getRoute = 'routeData/';
+/*---------------------API-GET-BY-ROOT--------------------*/
+
+/*---------------------API-GET-BY-ROOT--------------------*/
+export const getRadius = 'routeData/';
 /*---------------------API-GET-BY-ROOT--------------------*/
 
 /*---------------------API-GET-BUS-BY-TIME--------------------*/

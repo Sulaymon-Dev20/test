@@ -37,6 +37,11 @@ const initialState = {
     timeBusStationInfo: [],
     timeBusError: false,
 
+    radiusLoading: false,
+    radiusData: [],
+    radiusStationInfo: [],
+    radiusError: false,
+
     routeDataLoading: false,
     routeData: [],
     routeMessage: "",
@@ -53,8 +58,8 @@ export default (state = initialState, action) => {
             return {
                 ...state,
                 routePropsLoading: false,
-                routePropsData: action.payload.object,
-                routePropsStatus: action.payload.success
+                routePropsData: action.payload.data,
+                routePropsStatus: action.payload.status.code
             }
         case ERROR_ROUTE_PROPS:
             return {
@@ -127,6 +132,7 @@ export default (state = initialState, action) => {
                 ...state,
                 routeId: action.payload
             };
+
         default:
             return state
     }

@@ -1,0 +1,27 @@
+body{
+    background-color: #000;
+}
+.form-control{
+    background-color: #242424f2 !important;
+}
+.input-group>.input-group-prepend>.input-group-text{
+    background-color: #000 !important;
+}
+.card .card-header{
+    background-color: #000;
+}
+.card .card-body{
+    background-color: #000;
+}
+.card .card-title{
+    color: #00b786;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    color: #b7b7b7;
+}
+.card-category a small{
+    color: #b7b7b7;
+}
+.card .card-category, .card label{
+    color: #b7b7b7;
+}

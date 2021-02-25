@@ -140,7 +140,7 @@ function RouteValueStations() {
                                         </Carousel.Item>
                                     </Carousel>
                                     <div className="button-container mr-auto ml-auto btn-simple">
-                                            Aftobusning atdo rusumi
+                                        Aftobusning atdo rusumi
                                     </div>
                                 </Card>
                             </Col>

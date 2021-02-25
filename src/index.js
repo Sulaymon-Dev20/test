@@ -11,6 +11,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import AdminLayout from "layouts/Admin.js";
 import {Provider} from "react-redux";
 import RouteByRoot from "./views/RouteValueStations";
+import GetBus from "./views/GetBusByTime";
+import 'css/style.css'
 
 import store from './store'
 
@@ -20,7 +22,8 @@ ReactDOM.render(
             <Provider store={store}>
                 <Route path="/admin" render={(props) => <AdminLayout {...props} />}/>
                 <Route path="/route" render={(props) => <RouteByRoot {...props} />}/>
-                <Redirect from="/" to="/admin/dashboard"/>
+                <Route path="/getBus" render={(props) => <GetBus {...props} />}/>
+                <Redirect from="/" to="/getBus"/>
             </Provider>,
         </Switch>
     </BrowserRouter>,

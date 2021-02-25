@@ -1,5 +1,5 @@
 import axios from 'axios'
-import {api, getRoute, getTimeBus, routeProps} from '../../api/apis'
+import {api, getByRoot, getRadius, getRoute, getTimeBus, routeProps} from '../../api/apis'
 
 export const BEGIN_ROUTE_PROPS = 'BEGIN_ROUTE_PROPS';
 export const SUCCESS_ROUTE_PROPS = 'SUCCESS_ROUTE_PROPS';
@@ -9,6 +9,7 @@ export const getRouteProps = () => async dispatch => {
     dispatch({type: BEGIN_ROUTE_PROPS});
     try {
         const res = await axios.get(api + routeProps);
+        console.log(res.data.data)
         dispatch({type: SUCCESS_ROUTE_PROPS, payload: res.data});
     } catch (e) {
         dispatch({type: ERROR_ROUTE_PROPS});
@@ -24,8 +25,8 @@ export const getRouteStations = (id) => async dispatch => {
     dispatch({type: BEGIN_ROUTE_STATIONS});
     console.log("Begin");
     try {
-        const res = await axios.get("http://localhost:8010/api/mobile/v2/getByRoot/" + id);
-        dispatch({type: SUCCESS_ROUTE_STATIONS, payload: res.data});
+        const res = await axios.get(api + getByRoot + +id);
+        dispatch({type: SUCCESS_ROUTE_STATIONS, payload: res.data.data});
     } catch (e) {
         dispatch({type: ERROR_ROUTE_STATIONS});
         console.error("ro Error");
@@ -59,6 +60,20 @@ export const getRouteData = (id) => async dispatch => {
         dispatch({type: SUCCESS_ROUTE_DATA, payload: res.data});
     } catch (e) {
         dispatch({type: ERROR_ROUTE_DATA});
+    }
+};
+
+export const BEGIN_RADIUS_DATA = 'BEGIN_RADIUS_DATA';
+export const SUCCESS_RADIUS_DATA = 'SUCCESS_RADIUS_DATA';
+export const ERROR_RADIUS_DATA = 'ERROR_RADIUS_DATA';
+
+export const getByRadius = () => async dispatch => {
+    dispatch({type: BEGIN_RADIUS_DATA});
+    try {
+        const res = await axios.get(api + getRadius);
+        dispatch({type: SUCCESS_RADIUS_DATA, payload: res.data});
+    } catch (e) {
+        dispatch({type: ERROR_RADIUS_DATA});
     }
 };
 

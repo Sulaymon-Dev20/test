@@ -13,7 +13,6 @@ export default function Maps() {
     const dispatch = useDispatch();
     const [routeId, setRouteId] = useState(550);
     const [search, setSearch] = useState('');
-    const [point, setPoint] = useState([]);
     React.useEffect(() => {
         dispatch(getRouteStations(routeId));
         dispatch(getRouteProps())

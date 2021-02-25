@@ -31,7 +31,6 @@ function RouteProps() {
         }
     };
 
-
     const sendNewPage = (id) => {
         dispatch(setRouteId(id)).then(history.push(`/route`));
     };
@@ -55,7 +54,7 @@ function RouteProps() {
                     </Col>
                 </Row>
                 <Row>
-                    {status !== "WARNING" ? data && data.length > 0 ? data.filter((item) => {
+                    {status !== 500 && status !== 300 ? data && data.length > 0 ? data.filter((item) => {
                         if (search === "") {
                             return item;
                         } else if (item.name.toLowerCase().includes(search.toLowerCase())) {
